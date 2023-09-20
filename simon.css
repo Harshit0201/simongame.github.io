@@ -1,0 +1,53 @@
+h1{
+    margin: 0px;
+    padding: 0px;
+    font-size: 6vh;
+    color: crimson;
+}
+h4 , h3 ,h5{
+    margin: 0px;
+    padding: 2px;
+    font-size: 4vh;
+}
+h5{
+    color: chocolate;
+}
+h4{
+    padding-bottom: 8px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box{
+    width: 40vw;
+    height: 40vw;
+    /* background-color: black; */
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.red{ background-color: red;   }
+.green{ background-color: green;   }
+.yellow{ background-color: yellow;   }
+.blue{ background-color: blue;   }
+
+.box2{
+    width: 15vw;
+    height: 15vw;
+    margin: 2vw;
+    border: .5vw solid black;
+    border-radius: 0.2rem;
+}
+
+.white{
+   background-color: white;
+ }
+ .grey{
+    background-color: grey;
+ }
+
+ .wrong{
+    background-color: red;
+ }
