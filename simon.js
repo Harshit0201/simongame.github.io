@@ -6,8 +6,8 @@ let user = [];
 let ind = 0;
 let level = 0;
 let high = 0;
-
-document.addEventListener("click",()=>{
+let buttoon = document.querySelector("#buttoon");
+buttoon.addEventListener("click",()=>{
     
     if(started== false){
     console.log("game started");

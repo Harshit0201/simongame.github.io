@@ -15,6 +15,13 @@ h5{
 h4{
     padding-bottom: 8px;
 }
+#buttoon{
+    width: 7rem;
+    height: 3rem;
+    background-color: blueviolet;
+    color: white;
+}
+
 body{
     display: flex;
     flex-direction: column;
