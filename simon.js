@@ -7,7 +7,7 @@ let ind = 0;
 let level = 0;
 let high = 0;
 
-document.addEventListener("keypress",()=>{
+document.addEventListener("click",()=>{
     
     if(started== false){
     console.log("game started");
@@ -55,6 +55,7 @@ function checkAns(ind){
             level++;
             high = level;
             document.querySelector("h4").innerHTML = `level ${level}`;
+            
             setTimeout(rand,1000);
             document.querySelector("h5").innerHTML = `Computer Turn`;
             if(high<=level && level != 0){
