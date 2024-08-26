@@ -53,12 +53,12 @@ function checkAns(ind){
         if(com.length == user.length){
             console.log("true");
             level++;
-            high = level;
             document.querySelector("h4").innerHTML = `level ${level}`;
             
             setTimeout(rand,1000);
             document.querySelector("h5").innerHTML = `Computer Turn`;
             if(high<=level && level != 0){
+                high = level;
                 document.querySelector("h3").innerHTML = `Highest score is ${high}`;
             }
         }
@@ -72,7 +72,7 @@ function checkAns(ind){
         setTimeout(()=>{
             document.querySelector("body").classList.remove("wrong"); 
         },250)
-        document.querySelector("h4").innerHTML = "You are wrong !!<u><b>Again start game press any key</b></u>";
+        document.querySelector("h4").innerHTML = "You are wrong !!<u><b>Again Start Game press the Start Button</b></u>";
         document.querySelector("h5").innerHTML = ``;
         com = [];
         user = [];
